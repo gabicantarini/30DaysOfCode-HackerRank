@@ -9,7 +9,7 @@
 
 # HackerRank | Practice and Tutorials Preparation Solutions
 
-This repository consists of solutions to HackerRank **practice** and **tutorials** problems with **JavaScript** and **C#**.
+This repository consists of solutions to HackerRank **practice** and **tutorials** problems with **JavaScript**.
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/gabicantarini/30DaysOfCode-HackerRank)](https://github.com/gabicantarini/30DaysOfCode-HackerRank/commits/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/gabicantarini/30DaysOfCode-HackerRank)](https://github.com/gabicantarini/30DaysOfCode-HackerRank/archive/master.zip)
@@ -21,7 +21,7 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 ## HackerRank Badges
 
 
-![30 Days of Code](/Badges/30_days_of_code_5_star.png)
+![10 Days of JS Code](/Badges/10_days_of_code_5_star.png)
 
 
 
@@ -30,11 +30,11 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 ## Tutorials Completed
 
 
-* [30 Days of Code](#30-days-of-code)
+* [10 Days of JS Code](#10-days-of-JS-code)
 
 
 
-### 30 Days of Code
+### 10 Days of Javascript Code
 
 |  Day  |                Challenge                |                                         Problem                                          | Difficulty |  Score  |     C#                 | 
 | :---: | :-------------------------------------: | :--------------------------------------------------------------------------------------: | :--------: | :-----: | :--------------------------------------------------------------------------------------------------------------------: | 
