@@ -1,2 +1,2 @@
 # 30DaysOfCode-HackerRank
-30 days of code from Hacker Rank challenge
+My 30 days solution of code from Hacker Rank challenge.
