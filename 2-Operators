@@ -1,0 +1,31 @@
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+
+
+process.stdin.on('data', function(inputStdin) {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', function() {
+    solve(inputString);
+});
+
+
+function solve(inputString) {
+    // Write your code here
+    var inputArray = inputString.split('\n');
+    
+    var n = parseFloat(inputArray[0]);
+    var tipperc = parseFloat(inputArray[1]);
+    var taxperc = parseFloat(inputArray[2]);
+    var tip = n*tipperc/100;
+    var tax = n*taxperc/100;
+    var MealCost = Math.round(n+tip+tax);
+    
+    console.log(MealCost);
+
+}
+
