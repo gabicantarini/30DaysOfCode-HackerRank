@@ -1,4 +1,3 @@
-
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
@@ -16,16 +15,17 @@ process.stdin.on('end', function() {
 
 function solve(inputString) {
     // Write your code here
-    var inputArray = inputString.split('\n');
+    const inputArray = inputString.split('\n');
     
-    var n = parseFloat(inputArray[0]);
-    var tipperc = parseFloat(inputArray[1]);
-    var taxperc = parseFloat(inputArray[2]);
-    var tip = n*tipperc/100;
-    var tax = n*taxperc/100;
-    var MealCost = Math.round(n+tip+tax);
+    const n = parseFloat(inputArray[0]);
+    const tipPerc = parseFloat(inputArray[1]);
+    const taxPerc = parseFloat(inputArray[2]);
+    const tip = n*tipPerc/100;
+    const tax = n*taxPerc/100;
+    const mealCost = Math.round(n+tip+tax);
     
-    console.log(MealCost);
+    console.log(mealCost);
 
 }
+
 
