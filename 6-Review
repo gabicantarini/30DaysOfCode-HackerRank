@@ -1,0 +1,23 @@
+function processData(input) {
+    const message = input.split("\n");
+     
+    const n = parseInt(message[0]);
+    
+    for (let x = 0; x < n; x++)
+        {
+            let msg = message[x + 1];
+            let msgLength = msg.length;
+            let msgSplit = msg.split('');
+            let evenIndexed = "";
+            let oddIndexed = "";
+            
+            for (let y = 0; y < msgLength; y++)
+                {
+                    if (y % 2 == 0)
+                        evenIndexed = evenIndexed + msgSplit[y];
+                    else
+                        oddIndexed = oddIndexed + msgSplit[y];
+                }
+            console.log(evenIndexed + " " + oddIndexed);
+        }
+} 
