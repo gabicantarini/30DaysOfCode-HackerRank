@@ -1,0 +1,59 @@
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let inputArr = ''; // added empty array input
+let currentLine = 0;
+
+process.stdin.on('data', function(inputStdin) {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', function() {
+    inputArr = inputString.split('\n');
+
+    main();
+});
+
+function readLine() {
+    return inputArr[currentLine++];
+}
+
+
+
+function main() {
+    let n = parseInt(readLine().trim(), 10); //const to let so it can be reassignable
+    let arr = [];
+    
+    while(n != 0){
+        if (n % 2 === 0)
+            arr.push(0);
+        if (n % 2 === 1)
+            arr.push(1);
+        n = Math.floor(n/2);
+    }
+    
+    let maxNumber = 0;
+    let curNumber = 0;
+
+    
+    for (let i = 0, len = arr.length; i < len; i++) {
+        if (arr[i] === 1)
+        curNumber++;
+        else if (arr[i] === 0){
+            if (curNumber > maxNumber)
+                maxNumber = curNumber;
+                curNumber = 0;
+        }
+    }
+    
+    if (curNumber > maxNumber)
+        maxNumber = curNumber;
+    
+    console.log(maxNumber);
+}
+
+
+
