@@ -1,0 +1,21 @@
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        var S = Console.ReadLine();            
+       
+        try
+        {
+            int num = int.Parse(S);
+            Console.WriteLine(num);
+
+        }
+        
+        catch (Exception)
+        {
+            Console.WriteLine("Bad String");
+        }            
+
+
+    }
+}
