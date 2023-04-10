@@ -1,7 +1,7 @@
-    static void PrintArray < Element > (Element[] array) 
+static void PrintArray < Element > (Element[] array) 
+{
+    foreach(var element in array) 
     {
-        foreach(var element in array) 
-        {
-            Console.WriteLine(element);
-        }
+        Console.WriteLine(element);
     }
+}
