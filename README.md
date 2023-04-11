@@ -4,7 +4,7 @@
     </a>
 </p>
 
-# 30DaysOfCode-HackerRank
+
 ## My 30 days solution of code from Hacker Rank challenge.
 
 # HackerRank | Practice and Tutorials Preparation Solutions
@@ -36,12 +36,15 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 
 ### 30 Days of Code
 
-|  Day  |                Challenge                |                                         Problem                                          | Difficulty | Score |                                           C#                                                          |
+|  Day  |                Challenge                |                                         Problem                                          | Difficulty |                     Score   |                                          
+C#                                                          |
 | :---: | :-------------------------------------: | :--------------------------------------------------------------------------------------: | :--------: | :---: | :--------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
-|   0   |              Hello, World               |         [Problem](https://www.hackerrank.com/challenges/30-hello-world/problem)          |    Easy    |  30   |                                     [Solution](/30DaysOfCode-HackerRank/blob/main/0-HelloWorld)                   |
-|   1   |               Data Types                |          [Problem](https://www.hackerrank.com/challenges/30-data-types/problem)          |    Easy    |  30   |                                        [Solution](/30DaysOfCode-HackerRank/blob/main/1-DataType)                    |
-|   2   |                Operators                |          [Problem](https://www.hackerrank.com/challenges/30-operators/problem)           |    Easy    |  30   |                     [Solution](/30DaysOfCode-HackerRank/blob/main/2-Operators)                                            |
-|   3   |     Intro to Conditional Statements     |    [Problem](https://www.hackerrank.com/challenges/30-conditional-statements/problem)    |    Easy    |  30           |       [Solution]()        |
+|   0   |              Hello, World               |         [Problem](https://www.hackerrank.com/challenges/30-hello-world/problem)          |    Easy    |  30                                                          [Solution](/30DaysOfCode-HackerRank/blob/main/0-HelloWorld)                      |
+|   1   |               Data Types                |         [Problem](https://www.hackerrank.com/challenges/30-data-types/problem)           |    Easy    |    30   |                                                      [Solution](/30DaysOfCode-HackerRank/blob/main/1-DataType)                        |
+|   2   |                Operators                |         [Problem](https://www.hackerrank.com/challenges/30-operators/problem)            |    Easy    |  30   |                     
+                                                            [Solution](/30DaysOfCode-HackerRank/blob/main/2-Operators)                                            |
+|   3   |     Intro to Conditional Statements     |    [Problem](https://www.hackerrank.com/challenges/30-conditional-statements/problem)    |    Easy    |  30           |       
+[Solution]()        |
 |   4   |           Class vs. Instance            |      [Problem](https://www.hackerrank.com/challenges/30-class-vs-instance/problem)       |    Easy    |  30                |             [Solution]()              |
 |   5   |                  Loops                  |            [Problem](https://www.hackerrank.com/challenges/30-loops/problem)             |    Easy    |  30                           |                       [Solution]()                        |
 |   6   |              Let's Review               |         [Problem](https://www.hackerrank.com/challenges/30-review-loop/problem)          |    Easy    |  30                  |                   [Solution]()                   |
