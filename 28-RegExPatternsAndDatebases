@@ -1,0 +1,20 @@
+function main() {
+    const N = parseInt(readLine().trim(), 10);
+
+    
+    //let n = parseInt(readLine());
+    let arr = [];
+    for (let NItr = 0; NItr < N; NItr++)
+    {
+       arr.push(readLine());
+    }
+        
+    
+    let gmail = arr.filter(function(x) { return(x.includes("@gmail.com")) });
+    gmail.sort();
+    let names = gmail.map(function(x) { return(x.slice(0,x.indexOf(' '))) });
+    
+    names.forEach(function(name) {
+        console.log(name);
+    })
+}
