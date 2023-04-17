@@ -1,0 +1,38 @@
+function bitwiseAnd(N, K) {
+    // Write your code here
+    
+    let max = 0;
+    for (let b = 0; b <= N; b++) {
+        for (let a = 0; a < b; a++) {
+            let bitwiseAnd = a&b;
+            if (bitwiseAnd < K && bitwiseAnd > max) {
+                max = bitwiseAnd;
+            }
+        }
+    }
+ 
+    return max;
+
+}
+
+function main() {
+    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+
+    const t = parseInt(readLine().trim(), 10);
+
+    for (let tItr = 0; tItr < t; tItr++) {
+        const firstMultipleInput = readLine().replace(/\s+$/g, '').split(' ');
+
+        const count = parseInt(firstMultipleInput[0], 10);
+
+        const lim = parseInt(firstMultipleInput[1], 10);
+
+        const res = bitwiseAnd(count, lim);
+
+        ws.write(res + '\n');
+        console.log(bitwiseAnd(count, lim));
+        
+    }
+
+    ws.end();
+}
