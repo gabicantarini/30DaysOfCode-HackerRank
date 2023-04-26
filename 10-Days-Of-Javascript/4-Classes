@@ -4,9 +4,9 @@
  * 2. A 'perimeter' method that returns the sum of the Polygon's side lengths.
  */
     class Polygon {
-        /*perimeter(): any {
+        perimeter(): any {
             throw new Error("Method not implemented.");
-        }*/
+        } /*comment this perimeter*/
         constructor(sides) {
             this.perimeter = function() {
                 let sum = 0;
