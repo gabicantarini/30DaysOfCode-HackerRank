@@ -36,7 +36,7 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 
 ### 30 Days of Code
 
-|  Day  |                Challenge                |                                         Problem                                          | Difficulty |  Score  |     Javascript                 | 
+|  Day  |                Challenge                |                                         Problem                                          | Difficulty |  Score  |     Javascript OR C#                 | 
 | :---: | :-------------------------------------: | :--------------------------------------------------------------------------------------: | :--------: | :-----: | :--------------------------------------------------------------------------------------------------------------------: | 
 |   0   |              Hello, World               |         [Problem](https://www.hackerrank.com/challenges/30-hello-world/problem)          |    Easy    |   30    |   [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/30-Days-Of-Code/0-HelloWorld)   |
 |   1   |               Data Types                |         [Problem](https://www.hackerrank.com/challenges/30-data-types/problem)           |    Easy    |   30    |    [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/30-Days-Of-Code/1-DataType)                        |
