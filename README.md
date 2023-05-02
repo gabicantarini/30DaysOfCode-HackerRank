@@ -36,9 +36,9 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 
 ### 30 Days of Code
 
-|  Day  |                Challenge                |                                         Problem                                          | Difficulty |  Score  |     C#                 | 
+|  Day  |                Challenge                |                                         Problem                                          | Difficulty |  Score  |     Javascript                 | 
 | :---: | :-------------------------------------: | :--------------------------------------------------------------------------------------: | :--------: | :-----: | :--------------------------------------------------------------------------------------------------------------------: | 
-|   0   |              Hello, World               |         [Problem](https://www.hackerrank.com/challenges/30-hello-world/problem)          |    Easy    |   30    |   [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/0-HelloWorld)   |
+|   0   |              Hello, World               |         [Problem](https://www.hackerrank.com/challenges/30-hello-world/problem)          |    Easy    |   30    |   [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/30-Days-Of-Code/0-HelloWorld)   |
 |   1   |               Data Types                |         [Problem](https://www.hackerrank.com/challenges/30-data-types/problem)           |    Easy    |   30    |    [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/1-DataType)                        |
 |   2   |                Operators                |         [Problem](https://www.hackerrank.com/challenges/30-operators/problem)            |    Easy    |   30    |    [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/2-Operators)                                            |
 |   3   |     Intro to Conditional Statements     |    [Problem](https://www.hackerrank.com/challenges/30-conditional-statements/problem)    |    Easy    |   30    |    [Solution](https://github.com/gabicantarini/30DaysOfCode-HackerRank/blob/main/3-IntroToCondicionalStatements)        |
