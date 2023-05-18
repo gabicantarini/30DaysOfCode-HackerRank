@@ -25,8 +25,6 @@ This repository consists of solutions to HackerRank **practice** and **tutorials
 
 
 
-
-
 ## Tutorials Completed
 
 
